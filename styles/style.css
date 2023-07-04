@@ -1,5 +1,7 @@
-* {
+
+body {
     text-align: center;
+    background-color: rgba(255, 104, 4, 0.1);
 }
 
 .main {
@@ -8,7 +10,17 @@
     background-color: rgba(255, 104, 4, 0.4);
 }
 
-ul {
-    list-style-type: none;
-    text-align: center;
+ul.links {
+    list-style: none;
+}
+a {
+    color: black;
+}
+
+ol.lists,
+ul.lists {
+    display: inline-block;
+    text-align: left;
+    word-wrap: 10;
+    line-height: 1.5;
 }
