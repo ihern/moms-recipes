@@ -1,0 +1,14 @@
+* {
+    text-align: center;
+}
+
+.main {
+    border: 5px solid;
+    border-color: orangered;
+    background-color: rgba(255, 104, 4, 0.4);
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
