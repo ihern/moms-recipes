@@ -1,26 +1,40 @@
+* {
+    box-sizing: border-box; 
+    /* adds up padding, border, n margin to make up the w*h 
+        - the standard box model would instead add up all elements */
+}
 
 body {
-    text-align: center;
     background-color: rgba(255, 104, 4, 0.1);
+    text-align: center;
 }
 
 .main {
-    border: 5px solid;
-    border-color: orangered;
+    width: 1000px;
+    margin: 40px auto;
+    border: 5px solid orangered;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.6);
     background-color: rgba(255, 104, 4, 0.4);
 }
 
 ul.links {
     list-style: none;
+    line-height: 2;
+    padding-bottom: 12px;
 }
+
 a {
     color: black;
 }
 
 ol.lists,
 ul.lists {
+    /* padding-left: 3px; */
     display: inline-block;
     text-align: left;
-    word-wrap: 10;
-    line-height: 1.5;
+    line-height: 2;
+}
+
+.directions li {
+    padding-left: 6px;
 }
